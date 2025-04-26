@@ -1,10 +1,10 @@
 ## Install deps:
-```
+```sh
 yarn
 ```
 
 ## Spin-up Postgres database:
-```
+```sh
 docker compose up -d
 ```
 
