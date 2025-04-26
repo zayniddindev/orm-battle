@@ -5,5 +5,5 @@ export const typeormDb = new DataSource({
   type: "postgres",
   url: process.env.DATABASE_URL!,
   entities: [User],
-  synchronize: true,
+  synchronize: false,
 });

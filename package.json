@@ -1,4 +1,12 @@
 {
+  "license": "MIT",
+  "scripts": {
+    "insert:prisma": "yarn tsx prisma/index.ts",
+    "insert:typeorm": "yarn tsx type-orm/index.ts",
+    "insert:sequelize": "yarn tsx sequelize-orm/index.ts",
+    "insert:drizzle": "yarn tsx drizzle/index.ts",
+    "insert:objection": "yarn tsx objection-js/index.ts"
+  },
   "dependencies": {
     "@prisma/client": "^6.6.0",
     "dotenv": "^16.5.0",
